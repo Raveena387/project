@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 5px dashed silver;
+    background-color: gold;
+    text-align: center;
+    width: 25%;
+    margin-left: 45rem;
+}
+main{
+    background-image:radial-gradient(grey,white)
+}
+figure {
+    border: 5px solid silver;
+    background-color: mediumpurple;
+    border-radius: 10%;
+    margin-left: 45rem;
+    margin-top: 2rem;
+    width: 25%;
+    text-align: center;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img {
+    border: solid silver;
+    border-radius: 90%;
+}
+.rav{
+    border: 5px groove goldenrod;
+    background-color: silver;
+    font-size: 45px;
+    text-align: center;
+    margin-left: 45rem;
+    margin-top: 9rem;
+    width: 25%;
+}
+ul{
+    border: 5px dashed silver ;
+    background-color: mediumpurple;
+    border-radius: 10%;
+    width: 15%;
+    margin-left: 50rem;
+    display: block;
+    margin-top: 5rem;
+    list-style: none;
+}
+ol img {
+    margin-right: 30rem;
+    display: inline;
+    text-align: justify;
+}
+li{
+    text-align: center;
+    font-weight: bolder;
+    color: aquamarine;
+}
+.ex{
+    border: 2px solid black;
+    background-color: pink;
+    width: 500px;
+    height: 250px;
+    margin-left: 45rem;
+    text-align: center;
+    padding: 5rem;
+    font-size: 50px;
+    font-weight: bold;
+
+    
+}
+.ex1{
+    min-height: 550px;
+}
+.animate{
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-duration: normal;
+    animation-fill-mode: forwards;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(300px) rotateX(180deg);
+    }
+    66%{
+        transform: translateY(300px) rotateY(180deg);
+    }
+    100%{
+        transform: translateX(0);
+        background-color: mediumorchid;
+    }
+}
